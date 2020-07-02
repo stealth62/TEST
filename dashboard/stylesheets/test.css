@@ -1,0 +1,56 @@
+#harhar {
+  
+ position: absolute;
+ 
+  top: 120px;
+  right: 15px;
+}
+
+#harhar2 {
+  
+ position: absolute;
+ 
+  top: 80px;
+  right: 15px;
+}
+
+
+#backimg2 {
+  
+ position: fixed;
+ 
+ top: 500px;
+ // left: 15px;
+}
+
+#backimg1 {
+  
+ position: absolute;
+ 
+  top: 400px;
+  //left: 15px;
+}
+
+cust{
+float: left;
+    height: 35px;
+    margin: 250px 30px 0px 0px;
+
+    color: #000;
+    text-align: left;
+    padding: 10px 30px;
+    width: 230px;}
+
+footer {
+
+    float: right;
+    height: 35px;
+    margin: 350px 50px 0px 0px;
+//    background: #9FF;
+    color: #000;
+    text-align: right;
+    padding: 10px 30px;
+    width: 230px;
+}
+
+

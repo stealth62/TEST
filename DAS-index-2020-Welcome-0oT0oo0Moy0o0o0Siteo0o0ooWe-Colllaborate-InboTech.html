@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: none;
+    margin-left: 12vw;
+    margin-right: 12vw;}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #768bef;
+    box-sizing: border-box;
+    border-radius: 12px;
+}
+
+a:-webkit-any-link{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: blue;
+    padding: 1% 9%;
+    margin-top: 1vw;
+    position: initial;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 16px;
+    float: left;
+}
+    a:-webkit-any-link :hover{
+ opacity: 0.8;
+    }
+
+.container {
+  padding: 16px;
+    margin: 4vw;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+h2 {
+    font-family: Geometric, sans-serif;
+    margin-left: 21vw;
+    margin-right: 21vw;
+    font-size: 5vw;
+    color: #1371ff;
+    }
+    
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body >
+
+<h2>Delivery App Solution</h2>
+
+<form >
+    <p id="greeting" style="font-size: 3vw; color: #a6caff;">Good Evening User!</p>
+    <label for="psw"><b>Password</b></label>
+    <input id="password" type="password" n placeholder="Enter Password" required="">
+	
+        
+    <center><a href="https://wmgjn1bx3vshs13gzhul2a-on.drv.tw/Billing/INBOTECH-SOLUTION/f/AsdWESWDKMMDMDAMSASASdssdse12120120120101203ccewewewe1121291212911212-1-11-1-1-2222222CAKASA.html" target="_self"" onclick="javascript:return validatePass()">Log-In</a></center>
+  
+</form>
+    <script>
+function validatePass(){
+    if(document.getElementById('password').value == 'unison123'){
+        return true;
+    }else{
+        alert("Please write correct Password!") + window.location.replace('http://sites.google.com/view/delivery-app-solution');
+        return false;
+    }
+}
+        
+        if (new Date().getHours() < 18) {
+  document.getElementById("greeting").innerHTML = "Good day User!";
+}
+</script>
+  
+<div style="font-family:sans-serif;position:fixed;left: -42px;bottom:0;width:100%;background-color:transparent;text-align:right;color: #0000ff47;">INBOTECH Solution™<br>Dennis Borgs;</div>
+</body>
+</html>
+
